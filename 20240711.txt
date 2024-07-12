@@ -1,0 +1,17 @@
+# 2024/07/11
+
+$git remote -v     #
+
+$git push origin +master     #+: 강제로 push 하겠다 (’master’ branch에)
+
+$touch .gitignore     #add 시, 불필요한 파일을 배제할 때 만드는 문서. (API파일은 푸쉬할 수 없음)
+
+—> [gitignore.io](http://gitignore.io) 에 접속해서 django(프레임워크 등) 검색. vscode로 .gitignore 파일 열어서 복붙
+
+## <Git 푸쉬 순서>
+
+$git add .
+
+$git commit -m “first_practice”
+
+$git push origin +master
